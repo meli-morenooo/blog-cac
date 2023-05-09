@@ -1,0 +1,41 @@
+html {
+    padding:0%;
+    margin:0%;
+}
+
+nav {
+    background: #ffc107;
+    display: flex;
+}
+
+.logo{
+    width: 5cm;
+    padding: 0.5cm 0 0.5cm 5cm;
+    margin: 0%;
+
+}
+
+ul {
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 1cm;
+}
+
+footer {
+    padding: 5vw 0 5vw 0;
+    background: #00383A;
+    text-align: center;
+    color: #ffffff;
+}
+
+.fac .ins {
+    font-size: 38px;
+    color: #ffffff;
+}      
+
+.fac{
+    padding-right: 25px;
+}
