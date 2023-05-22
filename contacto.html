@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="contacto.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Contacto</h1>
-        <form id="contactForm" action="https://formspree.io/f/xwkjjpyv" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-        
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="_replyto">
-        
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje"></textarea>
-        
-            <button type="submit">Enviar</button>
-        </form>
-        <p class="success-message">¡Tu mensaje ha sido enviado con éxito!</p>
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="asset/logo_blog-transp.png" alt="Logo" style="height: 70px; padding-left: 40px">
+        </div>
+        <div class="nav-links" style="padding-right: 40px">
+            <a href="index.html">Home</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
     </div>
 
+    <div class="main">
+        <div class="contact-form">
+            <h1>Contacto</h1>
+            <form id="contactForm" action="https://formspree.io/f/xwkjjpyv" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+        
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="_replyto">
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div class="follow-us">
+            <h2>Síguenos en nuestras redes</h2>
+            <div>
+                <a href="{enlace a Instagram}" class="instagram-icon"><i class="fab fa-instagram" style="font-size: 30px; color: black;"></i></a>
+                <a href="{enlace a Facebook}" class="facebook-icon"><i class="fab fa-facebook-f" style="font-size: 30px; color: black;"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="redes">
+            <a href="{enlace a Instagram}"><i class="fab fa-instagram" style="font-size: 20px; color: white; padding-right: 15px;"></i></a>
+            <a href="{enlace a Facebook}"><i class="fab fa-facebook-f" style="font-size: 20px; color: white;"></i></a>
+        </div>
+        <p>Todos los derechos reservados - 2023</p>
+    </div>  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="contacto.js"></script>
 </body>
 </html>

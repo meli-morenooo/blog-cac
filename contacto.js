@@ -17,13 +17,12 @@ const form = document.getElementById('contactForm');
             // Envío del formulario
             form.submit();
 
-            // Animación de éxito
-            successMessage.style.display = 'block';
-            anime({
-                targets: successMessage,
-                translateY: [-50, 0],
-                opacity: [0, 1],
-                duration: 1000,
-                easing: 'easeOutElastic(1, .8)'
-            });
-        });
+        },
+
+        anime({
+            targets: '.follow-us h2',
+            opacity: [1, 0],
+            duration: 1500,
+            direction: 'alternate',
+            loop: true
+        }))
