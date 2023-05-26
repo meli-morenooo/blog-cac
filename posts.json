@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Cómo empezar con la Programación Orientada a Objetos",
+        "body": "Un post introductorio sobre los fundamentos de la programación orientada a objetos, incluyendo clases, objetos, herencia y encapsulación."
+    },
+    {
+        "title": "Tendencias en Inteligencia Artificial para 2023",
+        "body": "Un análisis de las tendencias emergentes en el campo de la inteligencia artificial, desde el aprendizaje automático hasta la inteligencia artificial conversacional."
+    },
+    {
+        "title": "Elegir un lenguaje de programación: Java vs. Python",
+        "body": "Una comparación de dos lenguajes de programación populares y consejos sobre cómo elegir el adecuado para tu proyecto."
+    },
+    {
+        "title": "El impacto de la IA en el lugar de trabajo",
+        "body": "Cómo la inteligencia artificial está cambiando la forma en que trabajamos y qué habilidades serán más valoradas en el futuro."
+    },
+    {
+        "title": "Cómo implementar las mejores prácticas de seguridad de IT",
+        "body": "Guía para mejorar la seguridad de la información en tu empresa, desde la capacitación de los empleados hasta la contratación de un equipo de seguridad dedicado."
+    },
+    {
+        "title": "Blockchain y su impacto en la industria de IT",
+        "body": "Un análisis de cómo la tecnología blockchain está cambiando la industria de IT, desde las finanzas hasta la ciberseguridad."
+    },
+    {
+        "title": "El papel de la ética en la IA y el aprendizaje automático",
+        "body": "Una discusión sobre los desafíos éticos en la inteligencia artificial y cómo los desarrolladores pueden abordar estos problemas."
+    },
+    {
+        "title": "Cómo cultivar una cultura positiva en equipos de IT",
+        "body": "Consejos y estrategias para construir una cultura de equipo fuerte y positiva en un entorno de IT."
+    },
+    {
+        "title": "El futuro del desarrollo de software: Tendencias para mirar",
+        "body": "Un vistazo a las tendencias emergentes en el desarrollo de software, como la programación de bajo código y la inteligencia artificial."
+    },
+    {
+        "title": "Big Data: ¿Qué es y por qué es importante?",
+        "body": "Un resumen de lo que es Big Data, cómo se utiliza, y su importancia en la toma de decisiones empresariales."
+    }
+]

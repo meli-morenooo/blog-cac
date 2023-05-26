@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
-    <link rel="stylesheet" href="estilos.css"/> 
+    <link rel="stylesheet" href="contacto.css"/>
+    <link rel="stylesheet" href="index.css"> 
 </head>
 <body>
-    <!-- Barra de Navegación -->
-    <nav>
-        <img src="/asset/logo_blog-transp.png" class="logo"></img>
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="asset/logo_blog-transp.png" alt="Logo" class="logo">
+        </div>
+        <div class="nav-links" style="padding-right: 40px">
+            <a href="index.html">Home</a>
+            <a href="nosotros.html">Sobre Nosotros</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </div>
 
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Sobre Nosotros</li>
-                <li>Blog</li>
-                <li>Contacto</li>
-            </ul>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Bienvenidos a Nuestro Blog</h1>
+            <p>Aquí compartimos nuestra pasión por la tecnología, el desarrollo de software y el análisis de datos. Explora, aprende y crece con nosotros.</p>
+            <button><a href="blog.html">Descubre nuestros posts</a></button>
         </div>
-    </nav>
+    </div>
 
-    <!-- Pie de Página -->
-    <footer>
-        <div class="redesSociales">
-            <i class="fa-brands fa-facebook fac"></i>
-            <i class="fa-brands fa-instagram ins"></i>
+    <div class="footer">
+        <div class="redes">
+            <a href="{enlace a Instagram}"><i class="fab fa-instagram" style="font-size: 20px; color: white; padding-right: 15px;"></i></a>
+            <a href="{enlace a Facebook}"><i class="fab fa-facebook-f" style="font-size: 20px; color: white;"></i></a>
         </div>
-        <div>
-            <p class="derRes">Todos los derechos reservados - 2023</p>
-        </div>
+        <p>Todos los derechos reservados - 2023</p>
+    </div>
     </footer>
 
     <!-- Kit Font Awesome -->
