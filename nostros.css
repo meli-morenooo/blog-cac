@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 200px;
+    padding: 20px 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
@@ -10,6 +12,7 @@
     align-items: center;
     width: 100%;
     margin: 20px 0;
+    justify-content: space-between;
 }
 
 .card.reverse {
@@ -21,4 +24,18 @@
     height: 150px;
     border-radius: 50%;
     margin: 20px;
+    object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+    .main{
+        padding: 5px !important;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card, .card.reverse {
+        flex-direction: column;
+    }
+}
+
